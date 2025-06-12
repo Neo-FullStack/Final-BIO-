@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+ .banner-wrap {
+    background-image: url(./assets/touchless.webp);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+  }
+   .overlay {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 60%;
+    position: absolute;
+    top: 0;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1a1a1a, #333333);
+    color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.custom-card {
+  width: 300px; /* Set a fixed width */
+  height: 450px; /* Set a fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card img {
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.custom-card .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 0px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #0097a7;
+}
+
+#projects h2,
+#contact h2 {
+    color: white;
+}
+
+footer {
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 10px solid black;
+    
+}
+
+
